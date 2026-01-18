@@ -7,22 +7,22 @@ This document outlines the step-by-step execution plan for building MakroFlow.
 **Goal**: Initialize repositories and configure development environments.
 
 1.  **Project Structure**
-    - [ ] Create root directory structure.
-    - [ ] Initialize Git repository.
-    - [ ] Create `.gitignore` (handling node_modules, venv, .env).
+    - [x] Create root directory structure.
+    - [x] Initialize Git repository.
+    - [x] Create `.gitignore` (handling node_modules, venv, .env).
 
 2.  **Backend Initialization (FastAPI)**
-    - [ ] Set up Python Virtual Environment (`venv`).
-    - [ ] Install dependencies: `fastapi`, `uvicorn`, `supabase`, `pydantic`, `python-jose` (for JWT).
-    - [ ] Create entry point `main.py`.
-    - [ ] Configure Environment Variables (`.env`) for Supabase keys.
+    - [x] Set up Python Environment (using `uv`).
+    - [x] Install dependencies: `fastapi`, `uvicorn`, `supabase`, `pydantic`, `python-jose` (for JWT).
+    - [x] Create entry point `main.py`.
+    - [x] Configure Environment Variables (`.env`) for Supabase keys.
 
 3.  **Frontend Initialization (Next.js 16+)**
-    - [ ] Run `npx create-next-app@latest` with TypeScript, Tailwind CSS, ESLint.
-    - [ ] Install Core Libraries: `lucide-react`, `clsx`, `tailwind-merge`.
-    - [ ] Install State Management: `@tanstack/react-query`, `zustand`.
-    - [ ] Initialize **shadcn/ui**: `npx shadcn-ui@latest init`.
-    - [ ] Add basic shadcn components: `button`, `input`, `card`, `dialog`.
+    - [x] Run `npx create-next-app@latest` with TypeScript, Tailwind CSS, ESLint.
+    - [x] Install Core Libraries: `lucide-react`, `clsx`, `tailwind-merge`.
+    - [x] Install State Management: `@tanstack/react-query`, `zustand`.
+    - [x] Initialize **shadcn/ui**: `npx shadcn-ui@latest init`.
+    - [x] Add basic shadcn components: `button`, `input`, `card`, `dialog`.
 
 ## Phase 2: Database & Security (Supabase)
 
